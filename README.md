@@ -28,4 +28,8 @@ Para executar o aplicativo, siga estes passos:
 3. Abra o projeto no **VSCode**.
 4. Abra o terminal dentro do VSCode e execute:
    ```bash
-   npm install
+   npx create-expo-app@latest Cronograma
+   cd Cronograma
+   npm run reset-project
+   npm install expo-notifications
+   npx expo start
